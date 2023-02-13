@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/style.css">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tamagotchi</title>
+</head>
+<body>
+  <div id="tamagotchi-container">
+    <h1 id="name">tamagotchi</h1>
+    <div id="tamagotchi-image"><img class="face"  src="./imagenes/comiendo.gif.webp" alt=""> </div> 
+
+    <div class="bars">
+        <h3>Health</h3>
+
+     <div class="progress-container-health"> 
+     <div class="progress-bar-health" style="width: 100%">100% health</div>
+     
+   </div>
+    </div>
+    <div class="bars">
+        <h3>hunger</h3>
+        <div class="progress-container-hunger">
+            <div class="progress-bar-hunger" style="width: 0%">hunger</div>
+            
+        
+          </div>
+</div>
+   
+  
+    <div id="buttons-container">
+      <button id="feed-button" >Alimentar</button>
+      <button id="clean-button">Limpiar</button>
+      <button id="play-button">jugar</button>
+      <button id="play-button">reiniciar</button>
+    </div>
+    </div>
+
+    <div id="change-name">
+        <label for="newNam">Ingresa un nuevo nombre:</label>
+        <input type="" id="newNam">
+        <button id="click-name" onclick="changeName()">Cambia el nombre de tu mascota</button>
+      </div>
+       
+      </div>
+
+      <script src="/main.js"></script>
+</body>
+</html>
